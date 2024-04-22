@@ -1,0 +1,35 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.config merge=union
+
+# Standard to normalize line endings of text files
+*.md     text
+*.txt    text
+
+# Image files
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+
+# Fonts and SVG
+*.svg    text
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+
+# Documents
+*.pdf    binary
+*.docx   binary
+*.xlsx   binary
+
+# ASP.NET Core specific
+wwwroot/lib/ binary

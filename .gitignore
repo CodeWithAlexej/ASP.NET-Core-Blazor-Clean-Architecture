@@ -1,0 +1,73 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.cache
+*.csproj.DotSettings.user
+
+# Ignore nuget packages
+*.nupkg
+!**/packages/build/
+package-lock.json
+project.assets.json
+nuget.config
+
+# Runtimes
+runtimes/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Ignore npm packages & logs
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Others
+*.swp
+*~
+*.db
+*.sqlite
