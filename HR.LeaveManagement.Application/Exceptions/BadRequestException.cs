@@ -6,7 +6,7 @@ namespace HR.LeaveManagement.Application.Exceptions
     {
         public BadRequestException(string message) : base(message)
         {
-
+            ValidationErrors = new();
         }
 
         public BadRequestException(string message, ValidationResult validationResult) : base(message)
@@ -19,6 +19,6 @@ namespace HR.LeaveManagement.Application.Exceptions
             }
         }
 
-        public List<string> ValidationErrors { get; set; } = default!;
+        public List<string> ValidationErrors { get; set; }
     }
 }
