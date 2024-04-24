@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Domain",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{E7F87F8E-403D-47E6-B688-C38F7CCD20EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{F3CB22D7-89E0-4F51-B688-FCC5B04AD3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{F3CB22D7-89E0-4F51-B688-FCC5B04AD3B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Api", "HR.LeaveManagement.Api\HR.LeaveManagement.Api.csproj", "{3DCFBE59-CD72-4923-9DF3-82D2654EC89B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCFBE59-CD72-4923-9DF3-82D2654EC89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCFBE59-CD72-4923-9DF3-82D2654EC89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCFBE59-CD72-4923-9DF3-82D2654EC89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCFBE59-CD72-4923-9DF3-82D2654EC89B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{E7F87F8E-403D-47E6-B688-C38F7CCD20EA} = {4BE07FE8-C91F-426F-BE58-8F47CBFDD45B}
 		{F3CB22D7-89E0-4F51-B688-FCC5B04AD3B4} = {45BA8E9E-2180-4AAC-ABC3-2EC9DB400302}
 		{1FC50EDD-5D04-4224-9CA0-3F1CE7D0DD2F} = {45BA8E9E-2180-4AAC-ABC3-2EC9DB400302}
+		{3DCFBE59-CD72-4923-9DF3-82D2654EC89B} = {B063F7B3-10C3-4465-855F-CC3EE56DBBDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7536724-E7E8-4ECF-B593-5326B75C4D18}
